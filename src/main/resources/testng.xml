@@ -1,0 +1,16 @@
+<suite name="Suite1" verbose="1" >
+      <test name="TEST1">
+        <classes>
+          <class name="test" />
+    <method>
+        <exclude name="secondTest" />
+
+    </method>
+       </classes>
+     </test>
+      <test name="TEST2">
+        <classes>
+          <class name="test2" />
+       </classes>
+     </test>
+        </suite>
