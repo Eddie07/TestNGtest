@@ -2,76 +2,82 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="129" started-at="2017-03-14T18:22:04Z" finished-at="2017-03-14T18:22:04Z">
+  <suite name="Suite1" duration-ms="153" started-at="2017-03-23T08:35:02Z" finished-at="2017-03-23T08:35:02Z">
     <groups>
+      <group name="smoke">
+        <method signature="test.secondTest()[pri:0, instance:test@d70c109]" name="secondTest" class="test"/>
+      </group> <!-- smoke -->
+      <group name="first">
+        <method signature="test.secondTest()[pri:0, instance:test@d70c109]" name="secondTest" class="test"/>
+      </group> <!-- first -->
     </groups>
-    <test name="TEST1" duration-ms="36" started-at="2017-03-14T18:22:04Z" finished-at="2017-03-14T18:22:04Z">
+    <test name="TEST1" duration-ms="46" started-at="2017-03-23T08:35:02Z" finished-at="2017-03-23T08:35:02Z">
       <class name="test">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test@5d3411d]" name="setUpClass" is-config="true" duration-ms="11" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test@d70c109]" name="setUpClass" is-config="true" duration-ms="14" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:test@5d3411d]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:test@d70c109]" name="setUpMethod" is-config="true" duration-ms="1" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method status="PASS" signature="second2Test()[pri:0, instance:test@5d3411d]" name="second2Test" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- second2Test -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test@5d3411d]" name="after" is-config="true" duration-ms="1" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test@d70c109]" name="after" is-config="true" duration-ms="1" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:test@5d3411d]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="second2Test()[pri:0, instance:test@d70c109]" name="second2Test" duration-ms="0" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second2Test -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:test@d70c109]" name="setUpMethod" is-config="true" duration-ms="1" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method status="PASS" signature="secondTest()[pri:0, instance:test@5d3411d]" name="secondTest" duration-ms="1" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:test@d70c109]" name="secondTest" duration-ms="0" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test@5d3411d]" name="tearDownTest" is-config="true" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test@d70c109]" name="after" is-config="true" duration-ms="0" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test@d70c109]" name="tearDownTest" is-config="true" duration-ms="0" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test@5d3411d]" name="after" is-config="true" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
       </class> <!-- test -->
     </test> <!-- TEST1 -->
-    <test name="TEST2" duration-ms="9" started-at="2017-03-14T18:22:04Z" finished-at="2017-03-14T18:22:04Z">
+    <test name="TEST2" duration-ms="12" started-at="2017-03-23T08:35:02Z" finished-at="2017-03-23T08:35:02Z">
       <class name="test2">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test2@1c53fd30]" name="setUpClass" is-config="true" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test2@64c64813]" name="setUpClass" is-config="true" duration-ms="1" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="second2Test()[pri:0, instance:test2@1c53fd30]" name="second2Test" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:test2@64c64813]" name="setUpMethod" is-config="true" duration-ms="1" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="second2Test()[pri:0, instance:test2@64c64813]" name="second2Test" duration-ms="0" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- second2Test -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test2@1c53fd30]" name="after" is-config="true" duration-ms="1" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test2@64c64813]" name="after" is-config="true" duration-ms="4" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:test2@1c53fd30]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:test2@1c53fd30]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method status="PASS" signature="secondTest()[pri:0, instance:test2@1c53fd30]" name="secondTest" duration-ms="0" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:test2@64c64813]" name="secondTest" duration-ms="1" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test2@1c53fd30]" name="after" is-config="true" duration-ms="1" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:test2@64c64813]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test2@64c64813]" name="after" is-config="true" duration-ms="1" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test2@1c53fd30]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2017-03-14T20:22:04Z" finished-at="2017-03-14T20:22:04Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test2@64c64813]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2017-03-23T10:35:02Z" finished-at="2017-03-23T10:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->

@@ -1,5 +1,7 @@
 import org.testng.annotations.*;
 
+
+
 /**
  * Created by User on 14.03.2017.
  */
@@ -21,6 +23,7 @@ public class test {
     }
 
     @AfterMethod
+
     public void after(){
         System.out.println("Make after methode");
 
